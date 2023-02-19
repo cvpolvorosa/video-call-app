@@ -9,7 +9,7 @@ import Peer from "simple-peer"
 import io from "socket.io-client"
 import "./App.css"
 
-
+<script src="http://localhost:3000/socket.io/socket.io.js" />
 const socket = io.connect('http://localhost:5000')
 function App() {
 	const [ me, setMe ] = useState("")
