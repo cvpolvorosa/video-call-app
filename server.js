@@ -1,3 +1,4 @@
+//yarn add simple-peer socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard
 const express = require("express")
 const http = require("http")
 const app = express()
